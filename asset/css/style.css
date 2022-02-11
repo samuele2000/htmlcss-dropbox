@@ -4,15 +4,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 /* UTILITY */
 .bottom-blu{
     padding: 5px 15px;
     background-color: rgb(0	97	255	);
     color: white;
+    text-decoration: none;
 }    
 
 /* FINE UTILITY */
-
+body{
+    font-family:Arial, Helvetica, sans-serif
+}
 /* HEADER */
 /* NAV */
 nav ul li{
@@ -31,7 +39,58 @@ nav ul li a{
 }
 .right{
     float: left;
-    margin-left: 340px;
+    margin-left: 280px;
     padding-top: 5px;
+    
 }
+
+/* MAIN */
+/* HERO */
+#hero{
+    
+    background-color: rgb(180	208	231	);
+}
+.introduction{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 70px;
+} 
+.introduction h1{
+    font-size: 3.5em;
+}   
+    
+.text{
+    width: 35%;
+    float: left;
+}    
+
+.text p:first-child{
+    padding: 40px 0 20px 0;
+}
+.text p:last-child{
+    margin-top: 20px
+}
+
+
+
+.jumbo{
+    width: 100%;
+}
+
+.img{
+    width: 60%;
+    padding-top: 40px;
+    margin-left: 40%;
+    
+}    
+    
+    
+    
+
+    
+
+
+
+
+
 
