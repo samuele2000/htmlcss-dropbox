@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <link rel="stylesheet" href="./asset/css/style.css">
 </head>
@@ -43,9 +44,10 @@
                     </p>
                     <a class="bottom-blu" href="#">Inizia la tua prova gratuita
                     </a>
-                    <p>
+                    <p class="annulla">
                         Annulla in qualsiasi momento
                     </p>
+                    <i class="fa-solid fa-arrow-down"></i>
                     
                 </div>
                 <div class="img">
@@ -57,12 +59,16 @@
         </section>
         <!-- business -->
         <section id="business">
-            <div class="piano-dropbox">
+            <div class="piano-dropbox clearfix">
                 <h2>Trova il piano Dropbox Business che fa per te</h2>
-                <input type="radio" value="mensile">
-                <label for="mensile">Fatturazione mensile</label> 
-                <input type="radio" value="annuale">
-                <label for="annuale">Fatturazione annuale</label>
+                <div>
+                    <input type="radio" value="mensile" checked>
+                    <label for="mensile">Fatturazione mensile</label> 
+                    <input type="radio" value="annuale">
+                    <label for="annuale">Fatturazione annuale</label>
+                </div>
+                
+                <!-- Colonan di sinistra -->
                 <div class="colonna">
                    <p class="persone">Singolo</p> 
                    <div class="text-in">
@@ -84,7 +90,8 @@
                      </ul>
                    </div>
                 </div> 
-                <div class="colonna">
+                <!-- Colonna centrale -->
+                <div class="colonna margin-30">
                     <p class="persone">Singolo</p> 
                     <div class="text-in">
                       <h4 class="b-padding-10">Professional</h4>
@@ -105,6 +112,7 @@
                       </ul>
                     </div>
                  </div> 
+                    <!--Colonna di destra  -->
                  <div class="colonna">
                     <p class="persone">Singolo</p> 
                     <div class="text-in">
@@ -126,7 +134,22 @@
                       </ul>
                     </div>
                  </div> 
-                  
+            </div>   
+            
+            <div class="enterprise">
+                <p class="persone">Team</p> 
+                <div>
+                    <a class="bottom-blu lat-padding"  href="#">Contatta l'ufficio vendite</a>
+                </div>
+                <h4 class="t-padding-20 f-size b-padding-10">Enterprise</h4>
+                <p class="b-padding-10 f-bold">Contatta l'ufficio vendite per i prezzi</p>
+                <p class="t-padding-20 b-padding-20 ">Soluzioni personalizzate e supoorto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala</p>
+            </div>    
+                
+                
+
+                
+            
                    
                    
                       
@@ -135,10 +158,12 @@
 
                 
 
-            </div>
+            
 
             
         </section>
+
+
         
     </main>
     <footer></footer>
