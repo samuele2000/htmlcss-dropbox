@@ -16,6 +16,12 @@
     color: white;
     text-decoration: none;
 } 
+.bottom-white{
+    padding: 5px 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;   
+}
 .b-padding-10{
     padding-bottom: 10px;
 } 
@@ -43,8 +49,11 @@
 .f-size{
     font-size: 18px;
 }
+.f-size-24{
+    font-size: 24px;
+}
 .margin-30{
-    margin: 0 30px;
+    margin: 0 45px;
 }
 /* FINE UTILITY */
 body{
@@ -187,6 +196,57 @@ nav ul li a{
      margin-right: 15px;
      margin-top: 30px;
  }
+ /* OPERAZIONI DROPBOX */
+ #operazioni-drop{
+     width: 70%;
+     margin: 0 auto;
+ }
+ .partner img{
+     width: 50%;
+     float: left;
+ }
+ .text-2{
+     margin-left: calc(50% + 30px);
+ }
+ .partner{
+     padding-top: 130px;
+ }
+ .text-2 h3{
+     margin-bottom: 20px;
+ }
+ .text-2 p{
+     margin-bottom: 20px;
+     line-height: 30px;
+     
+ }
+ /* OPERATION */
+ .operation h2{
+   margin-top: 80px;
+   font-size: 2em;
+ }
+    /* COLONNA 2 */
+ .colonna-2{
+    width: calc(100%/3 - 30px);
+    margin-top: 30px;
+    float: left;
+     
+ }
+ .colonna-2 img{
+     width: 100%;
+ }
+ .colonna-2 h4{
+    margin-top: 10px;
+    font-size: 20px;
+ } 
+ .colonna-2 p{
+     margin-top: 20px;
+     line-height: 20px;
+ } 
+ .colonna-2 img:last-child{
+     margin-top: 70px;
+ } 
+ 
+ 
     
     
     
