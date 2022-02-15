@@ -393,7 +393,29 @@ nav ul li a{
     margin-top: 80px;
     text-align: right;
 }
-   
+/* doamande */
+#domande{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#domande div h3{
+    font-size: 22px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 30px;
+} 
+#domande div p{
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid lightgray;
+}
+#domande .fa-solid{
+    font-size: 22px;
+    margin-left: 230px;
+    margin-top: 0;
+}  
 
 
    
