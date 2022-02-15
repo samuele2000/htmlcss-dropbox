@@ -287,8 +287,12 @@ nav ul li a{
 .title h2{
     font-size: 2em;
     margin-bottom: 20px;
-}   
+} 
+  
   /* container */
+.container{
+    margin-top: 40px;
+}  
 .lateral{
     width: 30%;
     
@@ -416,6 +420,37 @@ nav ul li a{
     margin-left: 230px;
     margin-top: 0;
 }  
+/* footer */
+footer{
+    color: white; 
+    background-color: black 
+}
+
+.cont-footer{
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.cont-footer div{
+    width: calc(100%/5);
+    float: left;
+}
+.cont-footer div h5{
+    font-size: 18px;
+}
+.cont-footer div ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.cont-footer div li {
+    font-size: 14px;
+    margin-top: 5px;
+}
+.cont-footer div li a{
+    text-decoration: none;
+    color: white;
+}
 
 
    
