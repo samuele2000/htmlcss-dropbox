@@ -18,10 +18,17 @@
 } 
 .bottom-white{
     padding: 5px 15px;
-    border: 1px solid black;
     text-decoration: none;
     color: black; 
     background-color: white;  
+}
+.border{
+    border: 1px solid black;
+}
+.border-gray{
+    border: 1px solid lightgray;
+    width: 20%;
+    margin-top: 30px;
 }
 .b-padding-10{
     padding-bottom: 10px;
@@ -83,8 +90,14 @@
 .border-inset{
     border: 5px solid rgb(208	233	205	);
     border-style: inset;
-     
-}
+} 
+.m-bottom-120{
+    margin-bottom: 110px;
+} 
+.m-bottom-150{
+    margin-bottom: 150px;
+}   
+
 /* FINE UTILITY */
 body{
     font-family:Arial, Helvetica, sans-serif;
@@ -92,6 +105,14 @@ body{
 }
 /* HEADER */
 /* NAV */
+nav{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
 
 nav ul li{
     display: inline-block;
@@ -102,6 +123,9 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: black;
+}
+nav ul li a:hover{
+    text-decoration: underline;
 }
 
 .left{
@@ -114,7 +138,16 @@ nav ul li a{
     padding-top: 5px;
     text-align: right;
 }
-   
+.bottom-blu:hover{
+    background-color: rgb(27, 114, 255) ;
+}
+.bottom-white:hover{
+    padding: 5px 15px;
+    
+    text-decoration: none;
+    color: black; 
+    background-color: rgb(250, 246, 246);
+}  
 
 
 /* MAIN */
@@ -126,7 +159,8 @@ nav ul li a{
 .introduction{
     width: 80%;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 150px;
+    
 } 
 .introduction h1{
     font-size: 3.5em;
@@ -178,6 +212,7 @@ nav ul li a{
     border: 1px solid lightgrey;
     margin-top: 30px;
     float: left;
+   
     
     
 }
@@ -186,12 +221,18 @@ nav ul li a{
     line-height: 20px;
     font-size: 14px;
     
+}
+.colonna .fa-solid{
+    font-size: 16px;
+    margin-top: 0;
+    margin-right: 5px;
 }    
  
 .persone{
     border-bottom: 1px solid lightgray;
     text-align: center;
-    padding: 5px 0
+    padding: 5px 0;
+    
 }
 .text-in h4{
     padding-top: 20px;
@@ -199,11 +240,11 @@ nav ul li a{
 }
  .colonna ul{
      list-style-type: none;
-     padding-bottom: 150px;
+     
      
  }  
  .colonna ul li::before{
-     content: '\f00c';
+     content: "\2713";
      color: rgb(0	97	255);
      padding-right: 3px;
  }
@@ -215,7 +256,7 @@ nav ul li a{
     border: 1px solid lightgray; 
     margin-top: 50px;
  }
- .enterprise p{
+ .enterprise p:nth-child(1n+4){
      margin-left: 15px;
  } 
  .enterprise h4{
@@ -243,6 +284,7 @@ nav ul li a{
      padding-top: 130px;
  }
  .text-2 h3{
+     margin-top: 30px;
      margin-bottom: 20px;
  }
  .text-2 p{
@@ -273,7 +315,7 @@ nav ul li a{
      margin-top: 20px;
      line-height: 20px;
  } 
- .colonna-2 img:last-child{
+ .colonna-2 img:nth-child(4){
      margin-top: 70px;
  } 
  /* sezione brand  */
@@ -450,6 +492,30 @@ footer{
 .cont-footer div li a{
     text-decoration: none;
     color: white;
+}
+.cont-footer div li a:hover{
+    text-decoration: underline;
+}
+.bordo{
+    border: 1px solid white;
+    margin-left: 10%;
+    width: 10%;
+    margin-top: 80px;
+}
+.lingua{
+    margin-top: 60px;
+    margin-left: 10%;
+    padding-bottom: 30px;
+}
+.lingua p{
+    font-size: 14px;
+    
+}
+.lingua .fa-solid{
+    font-size: 14px;
+}
+.lingua i{
+    margin: 0 5px;
 }
 
 
